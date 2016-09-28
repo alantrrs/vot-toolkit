@@ -24,4 +24,4 @@ COPY . /vot-toolkit
 
 # Define default entrypoint: Run test
 WORKDIR /vot-toolkit/test_tracker
-ENTRYPOINT octave run_test.m
+ENTRYPOINT octave run_experiments.m
